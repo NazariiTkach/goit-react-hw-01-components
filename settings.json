@@ -1,36 +1,36 @@
-{
-	"workbench.iconTheme": "vscode-icons",
-	"workbench.editor.enablePreview": false,
-	"files.autoSave": "off",
-	"diffEditor.ignoreTrimWhitespace": false,
-	"[html]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[scss]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[jsonc]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"scss.lint.unknownAtRules": "ignore",
-	"typescript.tsdk": "node_modules/typescript/lib",
-	"typescript.enablePromptUseWorkspaceTsdk": true,
-	"prettier.printWidth": 100,
-	"prettier.useTabs": true,
-	"prettier.jsxBracketSameLine": true,
-	"prettier.jsxSingleQuote": true,
-	"prettier.singleQuote": true,
-	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.minimap.enabled": false,
-	"breadcrumbs.enabled": false,
-	"liveServer.settings.CustomBrowser": "chrome",
-	"githubPullRequests.pullBranch": "never",
-	"window.menuBarVisibility": "compact",
-	"window.zoomLevel": -1,
-	"css.lint.unknownAtRules": "ignore",
-	"editor.fontSize": 20
-}
+// {
+// 	"workbench.iconTheme": "vscode-icons",
+// 	"workbench.editor.enablePreview": false,
+// 	"files.autoSave": "off",
+// 	"diffEditor.ignoreTrimWhitespace": false,
+// 	"[html]": {
+// 		"editor.defaultFormatter": "esbenp.prettier-vscode"
+// 	},
+// 	"[typescript]": {
+// 		"editor.defaultFormatter": "esbenp.prettier-vscode"
+// 	},
+// 	"[scss]": {
+// 		"editor.defaultFormatter": "esbenp.prettier-vscode"
+// 	},
+// 	"[jsonc]": {
+// 		"editor.defaultFormatter": "esbenp.prettier-vscode"
+// 	},
+// 	"scss.lint.unknownAtRules": "ignore",
+// 	"typescript.tsdk": "node_modules/typescript/lib",
+// 	"typescript.enablePromptUseWorkspaceTsdk": true,
+// 	"prettier.printWidth": 100,
+// 	"prettier.useTabs": true,
+// 	"prettier.jsxBracketSameLine": true,
+// 	"prettier.jsxSingleQuote": true,
+// 	"prettier.singleQuote": true,
+// 	"editor.formatOnSave": true,
+// 	"editor.defaultFormatter": "esbenp.prettier-vscode",
+// 	"editor.minimap.enabled": false,
+// 	"breadcrumbs.enabled": false,
+// 	"liveServer.settings.CustomBrowser": "chrome",
+// 	"githubPullRequests.pullBranch": "never",
+// 	"window.menuBarVisibility": "compact",
+// 	"window.zoomLevel": -1,
+// 	"css.lint.unknownAtRules": "ignore",
+// 	"editor.fontSize": 20
+// }
