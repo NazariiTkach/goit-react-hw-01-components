@@ -13,7 +13,7 @@ import {
 } from './Profile.styled';
 
 export const Profile = ({
-username, tag, location, avatar, followers, viwes, likes
+username, tag, location, avatar, followers, views, likes
 }) => { return (
 <ProfileBox>
   <Description>
@@ -22,7 +22,7 @@ username, tag, location, avatar, followers, viwes, likes
       alt="User avatar"
     />
     <UserName>{username}</UserName>
-    <UserTag>{tag}</UserTag>
+    <UserTag>@{tag}</UserTag>
     <UserLocation>{location}</UserLocation>
   </Description>
 
@@ -33,7 +33,7 @@ username, tag, location, avatar, followers, viwes, likes
     </StatsItem>
     <StatsItem>
       <LabelStats>Views</LabelStats>
-      <QuantityStats>{viwes}</QuantityStats>
+      <QuantityStats>{views}</QuantityStats>
     </StatsItem>
     <StatsItem>
       <LabelStats>Likes</LabelStats>
@@ -50,6 +50,6 @@ Profile.propTypes = {
     location: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
     followers: PropTypes.number.isRequired,
-    viwes: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
     likes: PropTypes.number.isRequired
 };
